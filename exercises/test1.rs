@@ -9,6 +9,11 @@
 
 // Put your function here!
 // fn ..... {
+fn calculate_price (quantity: i32) -> i32 {
+    let normal_price = 2;
+    let special_price = 1;
+    if quantity > 40 { quantity * special_price } else { quantity * normal_price}
+}
 
 // Don't modify this function!
 #[test]
